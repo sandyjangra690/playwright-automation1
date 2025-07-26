@@ -24,4 +24,5 @@ const pagePromise = pageTwo.waitForEvent('page');
 //await homeObj.expandTesting.click();
 //const pageTwo = await pagePromise;
 await expect(pageTwo).toHaveURL('https://expandtesting.com/');
+console.log("Successfully opened ExpandTesting in a new tab");
 });
